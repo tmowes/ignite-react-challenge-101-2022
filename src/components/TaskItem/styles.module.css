@@ -1,0 +1,77 @@
+.container {
+  height: 7.2rem;
+  width: 100%;
+  display: flex;
+  padding: 1.6rem;
+  align-items: flex-start;
+  border: 1px solid var(--gray-400);
+  border-radius: 1rem;
+  color: var(--gray-300);
+  font-size: 1.6rem;
+}
+
+button.check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.6rem;
+  width: 1.6rem;
+  margin: 0 0.8rem;
+  border-radius: 100%;
+  border: 0;
+  transition: all 0.2s;
+  background-color: transparent;
+  border: 2px solid var(--blue-400);
+}
+
+button.check:hover {
+  opacity: 0.6;
+  background-color: var(--blue-500);
+  border: 2px solid var(--blue-400);
+}
+
+button.done {
+  color: var(--gray-100);
+  background-color: var(--purple-500);
+  border: 2px solid var(--purple-500);
+}
+
+button.done:hover {
+  color: var(--gray-100);
+  background-color: var(--purple-400);
+  border: 2px solid var(--purple-400);
+  opacity: 1;
+}
+
+.description {
+  width: 100%;
+  color: var(--gray-100);
+  font-size: 1.4rem;
+  padding: 0 1.2rem;
+  line-height: 1.4;
+}
+
+p.done {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+
+.deleteButton {
+  height: 2.4rem;
+  width: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.4rem;
+  transition: all 0.2s;
+  background-color: transparent;
+  border: 0;
+  color: var(--gray-300);
+}
+
+.deleteButton:hover {
+  height: 2.4rem;
+  width: 2.4rem;
+  background-color: var(--gray-400);
+  color: var(--red-400);
+}

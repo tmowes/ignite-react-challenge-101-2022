@@ -1,8 +1,24 @@
 .container {
-  background-color: gray;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  min-height: 287px;
+  min-height: 28.7rem;
   width: 100%;
-  margin-top: 64px;
+  margin-top: 6.4rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2.4rem;
+}
+
+.taskList {
+  min-height: 244px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2rem;
 }

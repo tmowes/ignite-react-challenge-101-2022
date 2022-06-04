@@ -1,9 +1,14 @@
-import styles from './styles.module.css'
+import { PlusCircle } from 'phosphor-react'
 
-export function Button() {
+import styles from './styles.module.css'
+import { ButtonProps } from './types'
+
+export function Button(props: ButtonProps) {
+  const { ...attrs } = props
   return (
-    <header className={styles.container}>
-      <h1>Button</h1>
-    </header>
+    <button type="submit" className={styles.container} {...attrs}>
+      Criar
+      <PlusCircle weight="bold" size={16} />
+    </button>
   )
 }
